@@ -3,5 +3,5 @@ applications:
 - name: xunit-test-dotnetcore_new13
   memory: 256M
   instances: 1
-  buildpack: dotnet-core-buildpack
+  buildpack: dotnet_core_buildpack
   path: /tmp/build/put/seroter-source
