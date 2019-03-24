@@ -1,11 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
+  <TargetFramework>netcoreapp2.1</TargetFramework>
+  <RuntimeFrameworkVersion>2.1.*</RuntimeFrameworkVersion>
+</PropertyGroup>
+  <!--<PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <!-- added -->
+    <!-- added
     <IsPackable>false</IsPackable>
     <GenerateProgramFile>false</GenerateProgramFile>
-  </PropertyGroup>
+  </PropertyGroup>-->
 
   <ItemGroup>
     <Folder Include="wwwroot\" />
