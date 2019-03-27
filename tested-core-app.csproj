@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.1.x" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.1.9" />
   </ItemGroup>
 
   <!--added -->
@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.1.x" />
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.1.9" />
   </ItemGroup>
 
 </Project>
